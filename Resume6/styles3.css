@@ -1,29 +1,31 @@
-p{
+p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 134, 90);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
 }
 
-img{
+img {
     display: flex;
     border: 2px solid rgb(41, 41, 6);
     border-radius: 55%;
 
-   
+
 }
 
-body{
+body {
     display: flex;
     background-color: rgb(0, 0, 0);
 }
 
 
 
-.container{
+.container {
     width: min-content;
     margin: 5px;
     display: flex;
@@ -32,9 +34,10 @@ body{
     margin-top: 1px;
     margin-bottom: -90px;
     align-items: left;
-    
+
 }
-.left{
+
+.left {
     position: relative;
     justify-content: center;
     background-color: white;
@@ -44,10 +47,11 @@ body{
     margin-left: -15px;
     margin-top: -8.5px;
     margin-bottom: 0px;
-    
-    
+
+
 }
-.middle{
+
+.middle {
     display: flexbox;
     padding: right 2px;
     flex: 1;
@@ -59,10 +63,10 @@ body{
     position: relative;
     color: aliceblue;
     text-align: left;
-    
+
 }
 
-.right{
+.right {
     color: aliceblue;
     padding: left 6px;
     flex: 3;
@@ -71,24 +75,25 @@ body{
 
     position: relative;
     text-align: left;
-    
+
 }
 
-.heading{
-    color: rgb(32, 87, 87);
+.heading {
+    color: rgb(15, 82, 82);
 }
 
-li{
+li {
     list-style: none;
     text-align: left;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
-.m1{
-    
+.m1 {
+
     margin-top: 47px;
 }
 
-.t1{
+.t1 {
     margin-top: 70px;
 }
