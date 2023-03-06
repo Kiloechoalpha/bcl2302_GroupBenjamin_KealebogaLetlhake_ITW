@@ -1,0 +1,110 @@
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(31, 255, 180);
+}
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    display: flex;
+    margin-top: 12px;
+    border: 2px solid rgb(41, 41, 6);
+    border-radius: 60%;
+    height: 300px;
+    width: 300px;
+
+}
+
+body {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.977);
+}
+
+.container {
+    width: min-content;
+    margin: 5px;
+    display: flex;
+    max-width: 300px;
+    min-height: 780px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    align-items: left;
+
+}
+
+.left {
+    position: relative;
+    justify-content: center;
+    background-color: rgb(143, 125, 125);
+    padding: 10px;
+    flex: 2;
+    text-align: center;
+    margin-left: -15px;
+    margin-top: -8.5px;
+    margin-bottom: -13px;
+
+}
+
+.middle {
+    display: flexbox;
+    padding: right 7px;
+    flex: 1;
+    max-width: 500px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.right {
+    color: aliceblue;
+    padding: left 6px;
+    flex: 3;
+    margin-top: 105px;
+
+    margin-left: 10px;
+    margin-right: 8px;
+    position: relative;
+    text-align: left;
+}
+
+.heading {
+    color: rgb(0, 197, 197);
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    color: rgb(31, 255, 180);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.m1 {
+
+    margin-top: 40px;
+}
+
+.t1 {
+    margin-top: 58px;
+
+}
+
+.employer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 255, 180);
+}
