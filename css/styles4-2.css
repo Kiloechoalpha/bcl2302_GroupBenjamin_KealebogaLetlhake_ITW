@@ -1,114 +1,100 @@
-p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(77, 255, 195);
+img{
+    display: block;
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
+
+
+a {
+    color: blue;
+}
+
+
+
+header{
+    justify-content: center;
+    align-items: center;
+    padding-top: -30px;
+}
+
+.banner-image {
+    margin-top: -7px;
+    margin: -7px;
+    padding-top: 5px;
+    background: rgb(5, 1, 1) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBniCvNt_vTXiXjNtNwLmccOAPQFZT1VrBLA&usqp=CAU)
+    
+}
+body{
+    background-color: black;
+
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ h2, h3 { 
+    color: rgb(0, 66, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+
+ 
+
+
 
 .intro {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 200;
     font-size: large;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-}
 
-img {
+.right{
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    margin-top: -27%;
     
-    margin-top: 12px;
-    border: 2px solid rgb(41, 41, 6);
-    height: 300px;
-    width: 300px;
+}
+
+
+footer{
+    margin-left: 250px;
+    margin-right: 250px;
 
 }
 
-body {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.977);
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color :rgb(69, 244, 244);
 }
 
-header {
-    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg)
-}
-
-.container {
-    
-    margin: 5px;
-    display: flex;
-    max-width: 300px;
-    min-height: 780px;
-    margin-top: 1px;
-    margin-bottom: 3px;
-    align-items: left;
-
-}
-
-.top {
-    position: relative;
-    justify-content: center;
-    background-color: rgb(143, 125, 125);
-    padding: 10px;
-    flex: 2;
-    text-align: center;
-    margin-left: -15px;
-    margin-top: -8.5px;
-    margin-bottom: -13px;
-    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg)
-
-}
-
-.middle {
-    display: flexbox;
-    padding: right 7px;
-    flex: 1;
-    max-width: 500px;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    margin-left: 45px;
-    margin-right: 40px;
-    position: relative;
-    color: aliceblue;
-    text-align: center;
-
-}
-
-.right {
-    color: aliceblue;
-    padding: left 6px;
-    flex: 3;
-    margin-top: 105px;
-
-    margin-left: 10px;
-    margin-right: 8px;
-    position: relative;
-    text-align: left;
-}
-
-.heading {
-    color: rgb(1, 255, 255);
-}
-
-li {
-    list-style: none;
-    text-align: left;
-    color: rgb(31, 255, 180);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.m1 {
+  
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 255, 255, 0.905);
+  }
+  
+  .m1 {
 
     margin-top: 40px;
 }
-
-.t1 {
-    margin-top: 57.5px;
-
-}
-
-.employer {
+  
+  .employer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(31, 255, 180);
 }
+
+
