@@ -1,0 +1,100 @@
+img{
+    display: block;
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+a {
+    color: blue;
+}
+
+
+
+header{
+    justify-content: center;
+    align-items: center;
+    padding-top: -30px;
+}
+
+.banner-image {
+    margin-top: -7px;
+    margin: -7px;
+    padding-top: 5px;
+    background: rgb(5, 1, 1) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBniCvNt_vTXiXjNtNwLmccOAPQFZT1VrBLA&usqp=CAU)
+    
+}
+body{
+    background-color: black;
+
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ h2, h3 { 
+    color: rgb(0, 66, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+
+ 
+
+
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+.right{
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    margin-top: -27%;
+    
+}
+
+
+footer{
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color :rgb(69, 244, 244);
+}
+
+  
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 255, 255, 0.905);
+  }
+  
+  .m1 {
+
+    margin-top: 40px;
+}
+  
+  .employer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 255, 180);
+}
+
+
