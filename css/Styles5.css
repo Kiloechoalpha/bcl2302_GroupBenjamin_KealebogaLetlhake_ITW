@@ -2,16 +2,22 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(1, 72, 6);
+    display: flexbox;
 }
 
-.hero-image{
-    background-position: center;
-    background-image: url(Resume8\hi.jpg);
+header{
+    
+    background-image: url(https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif);
     background-repeat: none;
+    min-width: 459.5px;
+    
+   
 }
 
 
-img{
+img
+{
     display: block;
    border: black solid;  
     margin-left:auto;
@@ -19,20 +25,9 @@ img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
-}
-
-
-header{
-    justify-content: center;
-    align-items: center;
-   
-}
-
-
-body{
-    background-color: black;
     
 }
+
 
 h1{
     color: aliceblue;
@@ -42,19 +37,26 @@ h1{
 
 
 h2,
-h3 { 
+h3 
+{ 
     color: rgb(0, 66, 219);
     font-family: Verdana, Geneva, Tahoma, sans-serif
   }
 
 
 .hero-text {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    font-size: large;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color:rgba(244, 237, 241, 0.94);
+    margin: 50PX;
+   justify-content: space-between words ;
+    
+}
 
+.middle
+{
+margin-left: 35px;
 }
 
 
@@ -63,26 +65,19 @@ h3 {
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 50px;
-    margin-top: -27%;
+    margin-top: -28.75%;
     margin-bottom: 50px;
     
 }
 
 
-footer{
-    margin-left: 250px;
-    margin-right: 250px;
-
-}
-
-
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color :rgb(69, 244, 244);
+    color :rgb(255, 255, 255);
 }
 
   
-  li {
+li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,18 +85,19 @@ p {
   }
   
 
-  .m1 {
+.m1 {
 
     margin-top: 40px;
+}
+.t1 {
+
+    margin-top: 37px;
 }
   
   .employer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(31, 255, 180);
+    color: rgb(161, 183, 176);
 }
-
-
-body { background-color: rgb(1, 72, 6); }
 
 
 @media only screen and (min-width: 500px) {
