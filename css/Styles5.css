@@ -2,15 +2,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(1, 72, 6);
-    display: flexbox;
+    background-color: rgb(86, 23, 49);
+
 }
 
-header{
+.hero-image{
     
-    background-image: url(https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif);
+    background-image: url(https://thumbs.gfycat.com/CraftyCircularBeauceron-max-1mb.gif);
     background-repeat: none;
     min-width: 459.5px;
+   margin-top: 2px;
     
    
 }
@@ -39,18 +40,20 @@ h1{
 h2,
 h3 
 { 
-    color: rgb(0, 66, 219);
+    color: rgb(8, 82, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif
   }
 
 
 .hero-text {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    font-size: x-large;
-    color:rgba(244, 237, 241, 0.94);
+    font-weight: bold;
+    font-size: xx-large;
+    color:white;
     margin: 50PX;
-   justify-content: space-between words ;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
     
 }
 
@@ -73,7 +76,7 @@ margin-left: 35px;
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color :rgb(255, 255, 255);
+    color :rgba(238, 244, 212, 0.844);
 }
 
   
@@ -81,7 +84,7 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: rgba(0, 255, 255, 0.905);
+    color: rgb(187, 255, 255);
   }
   
 
@@ -101,21 +104,23 @@ li {
 
 
 @media only screen and (min-width: 500px) {
-   body { background-color: rgb(0, 1, 55); }
+   body {  background-color: rgba(106, 58, 3, 0.827);}
 } 
 
 
 @media only screen and (min-width: 668px) {
-   body { background-color: rgb(54, 2, 2); }
+   body { background-color:rgb(95, 10, 76) ;}
 } 
 
 
 @media only screen and (min-width: 892px) {
-   body { background-color: rgb(85, 85, 0); }
+   body { background-color: rgba(33, 74, 1, 0.668); }
 } 
 
 
 @media only screen and (min-width: 1100px) 
 {
-   body { background-color: rgb(44, 29, 0); }
+   body { background-color: rgb(3, 90, 46);
+ }
+ 
 }
