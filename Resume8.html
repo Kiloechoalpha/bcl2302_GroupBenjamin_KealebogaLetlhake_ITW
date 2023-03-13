@@ -14,7 +14,7 @@
         <picture>
             <source srcset="images\s.jpg" media="(max-width: 425px)">
             <source srcset="images\m.jpg" media="(max-width: 900px)">
-            <img src="images\l.jpg" alt="Kealeboga" >
+            <img src="images\l.jpg" alt="Kealeboga">
         </picture>
         <div >
             <h1 class = "hero-text" >Kealeboga Letlhake</h1>
@@ -26,7 +26,13 @@
     
     <article>
         <div class="middle">
-            <h2 class="heading">Experience</h2>
+
+            <div class="heading">
+
+            <h2 >Experience</h2>
+
+             </div>
+
             <div class="m1">
                 <h3>Company name</h3>
                 <p>Nov 2012 - present</p>
@@ -83,43 +89,48 @@
                 <p>Watching Anime</p>
                 <p>Skateboarding</p>   
 
-          <h2 class="heading">Contact Details</h2>
-          <ul style="color: rgb(4, 54, 37);">
-             <li>0671066105</li>
-             <li>letlhake.kv@gmail.com </li>
-             <li>Rustenburg, Phokeng, Lemenong.</li>
+      
+    </section>
+
+    <footer>
+        <h2 class="heading">Contact Details</h2>
+        <ul style="color: rgb(4, 54, 37);">
+           <li>0671066105</li>
+           <li>letlhake.kv@gmail.com </li>
+           <li>Rustenburg, Phokeng, Lemenong.</li>
+        </ul>
+
+      <div class = employer>
+      <form action="https://formsubmit.co/letlhake.kv@gmail.com" method="POST" target="_blank">
+          <h2 class = "heading">Employer's Info</h2>
+          <ul>
+            <label for="name">Name:</label>
+            <li><input type="text" id="name" name="user_name" placeholder="Input Full Name" required></li>
+            <li>
+
+              <select name="subject">Email Subject</label>
+               <option value="Interview">Job Interview Request</option>
+               <option value="contract">Review Contract</option>
+               <option value="Employment">Job Inquiry</option>
+              </select required >
+
+          </li>
+
+            <label for="mail">Email:</label>
+            <li><input type="mail" id="mail" name="user_mail" placeholder=" Input Email Address" required></li>
+            <label for="phone_number">Phone Number:</label>
+            <li><input type="phone_number" id="phone_number" name="user_phone_number" placeholder="Input Phone Number" required></li>
+            <label for="msg">Message:</label>
+            <li><textarea name="user_message" id="msg"></textarea></li> 
+           <li><input type="submit"></li> 
           </ul>
 
-        <div class = employer>
-        <form action="https://formsubmit.co/letlhake.kv@gmail.com" method="POST" target="_blank">
-            <h2 class = "heading">Employer's Info</h2>
-            <ul>
-              <label for="name">Name:</label>
-              <li><input type="text" id="name" name="user_name" placeholder="Input Full Name" required></li>
-              <li>
+  </form>
+  
+  </div>
+  </div>
+  </footer>
 
-                <select name="subject">Email Subject</label>
-                 <option value="Interview">Job Interview Request</option>
-                 <option value="contract">Review Contract</option>
-                 <option value="Employment">Job Inquiry</option>
-                </select required >
-
-            </li>
-
-              <label for="mail">Email:</label>
-              <li><input type="mail" id="mail" name="user_mail" placeholder=" Input Email Address" required></li>
-              <label for="phone_number">Phone Number:</label>
-              <li><input type="phone_number" id="phone_number" name="user_phone_number" placeholder="Input Phone Number" required></li>
-              <label for="msg">Message:</label>
-              <li><textarea name="user_message" id="msg"></textarea></li> 
-             <li><input type="submit"></li> 
-            </ul>
-
-    </form>
-    
-    </div>
-    </div>
-    </section>
     </body>
 
 </html>
