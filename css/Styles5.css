@@ -60,7 +60,7 @@ h3
 
 .heading{
 margin: 2px;
-display: flexbox;
+
 }
 
 .middle
@@ -92,7 +92,7 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: rgb(187, 255, 255);
+    color: rgb(232, 232, 232);
   }
   
 
